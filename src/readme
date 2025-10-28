@@ -1,0 +1,11 @@
+# Gradient Descent Variants — Comparison Study
+
+This repo compares Gradient Descent (GD), Stochastic Gradient Descent (SGD), and Mini-batch Gradient Descent on a Kaggle dataset (e.g., MNIST).
+
+See `src/` for the training script and `notebooks/experiment_outline.ipynb` for the experiment walkthrough.
+
+Instructions:
+1. Install requirements: `pip install -r requirements.txt`
+2. Download dataset and place in `data/` (see scaffold README section for Kaggle commands).
+3. Preprocess dataset into `.npy` files: `X_train.npy, y_train.npy, X_val.npy, y_val.npy`.
+4. Run
